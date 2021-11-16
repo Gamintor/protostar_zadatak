@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/protostar_zadatak/static/css/main.18791676.chunk.css",
-    "main.js": "/protostar_zadatak/static/js/main.d9fa59ce.chunk.js",
-    "main.js.map": "/protostar_zadatak/static/js/main.d9fa59ce.chunk.js.map",
+    "main.js": "/protostar_zadatak/static/js/main.b455e7ae.chunk.js",
+    "main.js.map": "/protostar_zadatak/static/js/main.b455e7ae.chunk.js.map",
     "runtime-main.js": "/protostar_zadatak/static/js/runtime-main.25837029.js",
     "runtime-main.js.map": "/protostar_zadatak/static/js/runtime-main.25837029.js.map",
-    "static/js/2.d133992d.chunk.js": "/protostar_zadatak/static/js/2.d133992d.chunk.js",
-    "static/js/2.d133992d.chunk.js.map": "/protostar_zadatak/static/js/2.d133992d.chunk.js.map",
+    "static/js/2.d5182f5a.chunk.js": "/protostar_zadatak/static/js/2.d5182f5a.chunk.js",
+    "static/js/2.d5182f5a.chunk.js.map": "/protostar_zadatak/static/js/2.d5182f5a.chunk.js.map",
     "index.html": "/protostar_zadatak/index.html",
     "static/css/main.18791676.chunk.css.map": "/protostar_zadatak/static/css/main.18791676.chunk.css.map",
-    "static/js/2.d133992d.chunk.js.LICENSE.txt": "/protostar_zadatak/static/js/2.d133992d.chunk.js.LICENSE.txt"
+    "static/js/2.d5182f5a.chunk.js.LICENSE.txt": "/protostar_zadatak/static/js/2.d5182f5a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.25837029.js",
-    "static/js/2.d133992d.chunk.js",
+    "static/js/2.d5182f5a.chunk.js",
     "static/css/main.18791676.chunk.css",
-    "static/js/main.d9fa59ce.chunk.js"
+    "static/js/main.b455e7ae.chunk.js"
   ]
 }
