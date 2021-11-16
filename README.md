@@ -41,4 +41,4 @@ want to fetch the same posts all over again because we fetched them inside of Ho
 
 I have researched and implemented Typechecking with PropTypes. Now every component that receives props has a dedicated PropTypes section which checks
 the type of props.
-I have pushed my code to the Github repo.
+I have pushed my code to the Github repo. I had a problem once I uploaded it. Specifically the problem was that BrowserRouter couldn't load the /posts page so I had to use HashRouter instead, that is why I have # symbol inside of my URLs.
