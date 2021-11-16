@@ -11,7 +11,7 @@ const SinglePost = ({ title, body, comments, id, user, propsMessage }) => {
     }, []);
 
     return (
-        <Link to={`/post/${id}`} target="_blank" rel="noopener noreferrer" className="singlePost">
+        <Link to={`/protostar_zadatak/post/${id}`} target="_blank" rel="noopener noreferrer" className="singlePost">
             <h3 id="title">{title}</h3>
             <span id="body">{body}</span>
             <span id="userName">{user[0]?.name}</span>

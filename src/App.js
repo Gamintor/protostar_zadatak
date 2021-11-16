@@ -9,9 +9,9 @@ function App() {
     return (
         <div className="App">
             <Routes>
-                <Route path="/" element={<Navigate replace to="/posts" />} />
-                <Route path="/posts" element={<HomePage propsMessage={propsMessage} />} />
-                <Route path="/post/:id" element={<SinglePagePost propsMessage={propsMessage} />} />
+                <Route path="/protostar_zadatak" element={<Navigate replace to="/posts" />} />
+                <Route path="/protostar_zadatak/posts" element={<HomePage propsMessage={propsMessage} />} />
+                <Route path="/protostar_zadatak/post/:id" element={<SinglePagePost propsMessage={propsMessage} />} />
             </Routes>
         </div>
     );
