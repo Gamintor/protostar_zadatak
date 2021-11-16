@@ -41,4 +41,4 @@ want to fetch the same posts all over again because we fetched them inside of Ho
 
 I have researched and implemented Typechecking with PropTypes. Now every component that receives props has a dedicated PropTypes section which checks
 the type of props.
-I have pushed my code on the Github repo.
+I have pushed my code to the Github repo.
