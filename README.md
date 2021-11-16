@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Posts and comments project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project displays posts and comments along with their matching users. It fetches data from [JSON Placeholder API](https://jsonplaceholder.typicode.com/). It also has a filtering by user's name and searching by post title functionality.  
 
-## Available Scripts
+## Build process:
 
-In the project directory, you can run:
+### `Day One`
 
-### `npm start`
+I started with learning many new properties of React Router. Most noteably I had to learn how to use latest v6 version of it.
+I initialized my create-react-app and set up my working enviroment.
+I organized the structure of my app.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### `Day Two`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+I managed to create redirect so that my default url path is "/posts" and not just "/".
+I started off with HomePage component where the majority of my app is rendered.
+I basically built my UI and managed to send my first fetch request to JSON Placeholder URL and then saved that response to a component state which I then displayed using SinglePost component.
+I only fetched posts today, comments were not fetched
 
-### `npm test`
+### `Day Three`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I fetched comments and displayed them alongside their appropriate post.
+I improved the UI, by making it more visually appealing.
+I have put a link tag inside of my SinglePost component so that when you click on a specific post it gets opened in a new tab.
+However I did not manage to pass props from one URL to another.
 
-### `npm run build`
+### `Day Four`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+I realized that I cannot pass props or state from Link tag to another component if Link is opening a new window, instead I had to use useParams hook inside of a SinglePagePost component. useParams returns an id of a newly opened post and using that we can fetch all the neccessary data to display a single post.
+I have created filter by userId functionality inside Toolbar component.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `Day Five`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+I fetched users as well and then displayed them alongside their posts.
+I made a change to my filter so that now it displays names and not userIds.
+I created search functionality inside of Toolbar component so that it searches for posts based on their title.
+I have researched and implemented useRef hook so that it skips inital useEffect from executing inside of Toolbar component. The reason is, we don't
+want to fetch the same posts all over again because we fetched them inside of HomePage component.
 
-### `npm run eject`
+### `Day Six`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+I have researched and implemented Typechecking with PropTypes. Now every component that receives props has a dedicated PropTypes section which checks
+the type of props.
+I have pushed my code on the Github repo.

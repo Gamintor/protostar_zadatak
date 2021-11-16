@@ -1,0 +1,33 @@
+.singlePost {
+    display: flex;
+    flex-direction: column;
+    width: 720px;
+    margin: 30px 0;
+    background-color: #b0bec5;
+    color: #000;
+    border-radius: 7px;
+    box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#title {
+    text-align: center;
+    font-size: 1.95rem;
+    font-weight: 500;
+    padding: 25px;
+}
+
+#body {
+    text-align: center;
+    font-size: 1.1rem;
+    background-color: #cfd8dc;
+    padding: 25px;
+}
+
+#userName {
+    padding: 15px 15px 0 15px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.1rem;
+}

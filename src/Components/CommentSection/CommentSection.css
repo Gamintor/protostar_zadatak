@@ -1,0 +1,40 @@
+.comments {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px 15px 15px;
+}
+
+#comment {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+    margin: 10px 0;
+    border-bottom: 4px solid #90a4ae;
+    border-radius: 6px;
+}
+
+#comSectionTitle {
+    padding: 5px;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+#comName {
+    font-weight: 500;
+    font-size: 1.3rem;
+    background-color: #90a4ae;
+    padding: 4px 0 4px 5px;
+    border-radius: 6px 6px 0 0;
+}
+
+#comEmail {
+    font-style: italic;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+
+#comBody {
+    font-size: 1.1rem;
+    padding-left: 5px;
+}
