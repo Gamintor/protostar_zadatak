@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/protostar_zadatak/static/css/main.18791676.chunk.css",
-    "main.js": "/protostar_zadatak/static/js/main.35641088.chunk.js",
-    "main.js.map": "/protostar_zadatak/static/js/main.35641088.chunk.js.map",
+    "main.js": "/protostar_zadatak/static/js/main.bc41c971.chunk.js",
+    "main.js.map": "/protostar_zadatak/static/js/main.bc41c971.chunk.js.map",
     "runtime-main.js": "/protostar_zadatak/static/js/runtime-main.25837029.js",
     "runtime-main.js.map": "/protostar_zadatak/static/js/runtime-main.25837029.js.map",
     "static/js/2.d133992d.chunk.js": "/protostar_zadatak/static/js/2.d133992d.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.25837029.js",
     "static/js/2.d133992d.chunk.js",
     "static/css/main.18791676.chunk.css",
-    "static/js/main.35641088.chunk.js"
+    "static/js/main.bc41c971.chunk.js"
   ]
 }
